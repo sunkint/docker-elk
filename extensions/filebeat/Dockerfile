@@ -1,3 +1,3 @@
 ARG ELASTIC_VERSION
 
-FROM docker.elastic.co/beats/filebeat:${ELASTIC_VERSION}
+FROM j0qql1f7.mirror.aliyuncs.com/beats/filebeat:${ELASTIC_VERSION}
