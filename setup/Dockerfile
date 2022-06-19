@@ -1,7 +1,7 @@
 ARG ELASTIC_VERSION
 
 # https://www.docker.elastic.co/
-FROM j0qql1f7.mirror.aliyuncs.com/elasticsearch/elasticsearch:${ELASTIC_VERSION}
+FROM docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
 
 USER root
 
